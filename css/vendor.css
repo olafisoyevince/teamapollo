@@ -1,0 +1,67 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Public Sans', sans-serif
+}
+.justify{
+  justify-content: right;
+}
+.small-font{
+  font-size: 0.9rem;
+}
+.dark-blue-color{
+  color: #012762;
+}
+.dark-blue-bg-color{
+  background-color: #012762;
+}
+.backg{
+  background-image: url(../images/image\ 73.png);
+  background-position: center;
+  background-size: cover;
+}
+.pad{
+  padding-top: 160px;
+  padding-bottom: 160px;
+}
+.pink-color{
+  background-color: #FFD8DA;
+  border-radius: 170px;
+  width: 27%;
+}
+
+@media only screen and (max-device-width: 1024px){
+  .pink-color{
+    width: 35%;
+  }
+}
+@media only screen and (max-device-width: 768px){
+  .pink-color{
+    width: 50%;
+  }
+}
+@media only screen and (max-device-width: 500px){
+  .pink-color{
+    width: 90%;
+  }
+  .navbar-two{
+    display: none;
+  }
+}
+@media only screen and (max-device-width : 375px) {
+  .pink-color{
+    width: 100%;
+  }
+  .navbar-two{
+    display: none;
+  }
+}
+@media only screen and (max-device-width : 320px) {
+  .pink-color{
+    width: 100%;
+  }
+  .navbar-two{
+    display: none;
+  }
+}
